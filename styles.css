@@ -1,0 +1,168 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+}
+
+a {
+    color: #00bcd4;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Navbar */
+.custom-nav {
+    background-color: #111;
+    padding: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?luxury,design') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.hero-text .btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+/* Packages Section */
+.packages-section {
+    padding: 60px 0;
+    background-color: #111;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.packages-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.packages-section h4 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.packages-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.packages-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Nexus Section */
+.nexus-section {
+    padding: 60px 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.nexus-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.nexus-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.video-wrapper {
+    margin-top: 30px;
+}
+
+/* Reviews Section */
+.reviews-section {
+    padding: 60px 0;
+    background-color: #111;
+    color: #fff;
+}
+
+.reviews-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    font-size: 1.1rem;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-left: 5px solid #00bcd4;
+}
+
+blockquote footer {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.contact-form .form-control::placeholder {
+    color: #aaa;
+}
+
+.contact-form .btn-send-message {
+    padding: 10px 30px;
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+}
+
+.contact-form .btn-send-message:hover {
+    background-color: #007bff;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #111;
+    padding: 20px 0;
+    color: #ccc;
+}
